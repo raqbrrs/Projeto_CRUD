@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class ControleCurso {
     Connection conn;

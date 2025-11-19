@@ -6,7 +6,7 @@ package CONTROL;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class ControleAdminstrador {
     

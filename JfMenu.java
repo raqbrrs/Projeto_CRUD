@@ -8,7 +8,7 @@ import javax.swing.JInternalFrame;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class JfMenu extends javax.swing.JFrame {
     

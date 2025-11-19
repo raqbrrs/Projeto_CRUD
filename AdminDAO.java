@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class AdminDAO {
     // variavel global fora do metodo

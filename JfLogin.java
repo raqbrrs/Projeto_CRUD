@@ -7,13 +7,14 @@ package View;
 import DAO.AdminDAO;
 import MODEL.Login;
 import java.awt.Color;
+import java.awt.event.KeyEvent;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
 import java.sql.SQLException;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class JfLogin extends javax.swing.JFrame {
     
@@ -92,6 +93,11 @@ public class JfLogin extends javax.swing.JFrame {
         JpfSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JpfSenhaActionPerformed(evt);
+            }
+        });
+        JpfSenha.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                JpfSenhaKeyPressed(evt);
             }
         });
 
@@ -181,6 +187,14 @@ public class JfLogin extends javax.swing.JFrame {
     private void JtfUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JtfUsuarioActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_JtfUsuarioActionPerformed
+
+    private void JpfSenhaKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_JpfSenhaKeyPressed
+        // TODO add your handling code here:
+        //usar um if para verificar qual tecla pressionar
+        if(evt.getKeyCode()  == KeyEvent.VK_ENTER){
+       
+        }
+    }//GEN-LAST:event_JpfSenhaKeyPressed
 
     /**
      * @param args the command line arguments

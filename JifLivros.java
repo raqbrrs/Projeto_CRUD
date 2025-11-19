@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Kaliandrik
+ * @author Raquel
  */
 public class JifLivros extends javax.swing.JInternalFrame {
 
